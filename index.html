@@ -303,7 +303,7 @@
   <!-- soft cast shadow: the scene's only ground-contact mark -->
   <ellipse cx="496" cy="439" rx="206" ry="13" fill="#7a8fa5" opacity=".7" filter="url(#blur6)"/>
   <ellipse cx="492" cy="433" rx="182" ry="7" fill="#93a9be" opacity=".38" filter="url(#blur6)"/>
-  <ellipse cx="462" cy="400" rx="152" ry="17" fill="#c8d8e6" opacity=".4" filter="url(#blur6)"/>
+  <ellipse cx="462" cy="400" rx="156" ry="18" fill="#b9cde0" opacity=".5" filter="url(#blur6)"/>
   <ellipse cx="466" cy="420" rx="160" ry="26" fill="#b9cbdb" opacity=".22" filter="url(#blur7)"/>
 
   <!-- ======================= bear + rider ======================= -->
@@ -349,7 +349,7 @@
     <path d="M 500 290 C 528 252 596 248 634 284 L 634 320 L 500 320 Z" fill="#fbfcfe"/>
     <path d="M 598 318 L 648 338" stroke="#fbfcfe" stroke-width="66" stroke-linecap="round"/>
     <path d="M 344 384 C 420 410 560 410 630 378" fill="none" stroke="#cfe0ed"
-          stroke-width="24" stroke-linecap="round"/>
+          stroke-width="28" stroke-linecap="round"/>
     <path d="M 302 346 C 316 370 330 388 348 400" fill="none" stroke="#dbe6ef"
           stroke-width="9" stroke-linecap="round" opacity=".9"/>
     <path d="M 604 334 C 612 346 624 352 638 354" fill="none" stroke="#dfe8f0"
@@ -402,11 +402,6 @@
       <path d="M 412 256 l 5 4 -5 4 -5 -4 z" fill="#d9a93c"/>
     </g>
 
-    <!-- rein first, so the rider's hand closes over its near end -->
-    <path d="M 476.0 236.5 C 486 246 496 256 512 264
-             C 546 278 592 292 630 306 C 660 316 688 340 706 362" fill="none"
-          stroke="#4a3a25" stroke-width="3.6" opacity=".9" stroke-linecap="round"/>
-
     <!-- ================ Qin Shi Huang, seated ================ -->
     <g transform="translate(422 250) scale(0.9)">
       <!-- gold-edged cape, trailing behind, sways about the shoulder -->
@@ -445,7 +440,7 @@
             stroke-linecap="round"/>
       <path d="M 55 -20 C 60 -23 64 -19 63 -15 C 60 -17 57 -18 55 -20 Z" fill="#e8c9a4"
               stroke="#c9a98a" stroke-width="1"/>
-      <circle cx="59" cy="-15" r="5.8" fill="#e8c9a4" stroke="#c9a98a" stroke-width="1.1"/>
+      <circle cx="60" cy="-15" r="6.6" fill="#e8c9a4" stroke="#a88b6a" stroke-width="1.4"/>
 
       <!-- head, nodding with the gait; face turned to the right -->
       <g>
@@ -527,6 +522,12 @@
             stroke-width="3" opacity=".85"/>
           </g>
   </g>
+
+  <!-- rein last of all: it has to lie OVER the bear's head, and it starts at
+       the hand's edge so the grip still reads -->
+  <path d="M 481.5 239 C 496 252 518 268 546 280 C 580 294 630 306 664 318
+           C 686 328 700 344 708 360" fill="none" stroke="#4a3a25" stroke-width="3.4"
+        opacity=".9" stroke-linecap="round"/>
 
   <!-- ======================= falling snow ======================= -->
   <g fill="#ffffff">
